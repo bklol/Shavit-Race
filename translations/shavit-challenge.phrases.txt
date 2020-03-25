@@ -2,106 +2,125 @@
 {	
 	"ChallengeMenuTitle"
 	{
-		"en"		"Challenge: Select your opponent"
+		"en"		"挑战: 对手选择"
+		"chi"		"挑战: 对手选择"
 	}
 	"ChallengeMenuTitle2"
 	{
-		"en"		"Challenge: Select race style"
+		"en"		"挑战: 模式选择"
+		"chi"		"挑战: 模式选择"
 	}
 	"ChallengeMenuTitle3"
 	{
-		"en"		"Challenge: Select race track"
+		"en"		"挑战: 选择主/奖励关"
+		"chi"		"挑战: 选择主/奖励关"
 	}
 	"ChallengeRequestSent"
 	{
 		"#format"   "{1:s},{2:s}"
-		"en"        "Challenge request sent to {1}{2}"
-		"pl"        "Wyzwałeś {1}{2}"
+		"en"        "挑战已发给 {1}{2}"
+		"chi"       "挑战已发给 {1}{2}"
+		
 	}
 	"ChallengeRequestReceive"
 	{
 		"#format"   "{1:s},{2:s},{3:s},{4:s},{5:s},{6:s},{7:s},{8:s},{9:s},{10:s}"
-		"en"        "{1}{2} {3}challenged you to a race. Style: {4}{5}{6}, Track: {7}{8}{9}. You have 20 seconds to {10}!accept"
-		"pl"        "{1}{2} {3}wyzwał Cię. Masz 20 sekund, żeby zaakceptować. Wpisz {4}!accept"
+		"en"        "{1}{2} {3}向你发起了挑战. 模式: {4}{5}{6}, 关卡: {7}{8}{9}. 你有 20 秒输入 {10}!accept或!acpt 来接受比赛"
+		"chi"       "{1}{2} {3}向你发起了挑战. 模式: {4}{5}{6}, 关卡: {7}{8}{9}. 你有 20 秒输入 {10}!accept或!acpt 来接受比赛"
+		
 	}
 	"ChallengeAccept"
 	{
-		"en"        "Challenge accepted."
-		"pl"        "Wyzwanie zaakceptowane."
+		"en"        "挑战已接受."
+		"chi"       "挑战已接受."
+		
 	}
 	"ChallengeSurrenderAnnounce"
 	{
 		"#format"   "{1:s},{2:s},{3:s},{4:s},{5:s},{6:s}"
-		"en"        "{1}{2} {3}won a race against {4}{5}! {6}(Surrender)"
-		"pl"        "{1}{2} {3}wygrał wyzwanie {4}{5}! {6}(Poddanie)"
+		"en"        "{1}{2} {3}干碎了 {4}{5}! {6}(他投降了)"
+		"chi"       "{1}{2} {3}干碎了 {4}{5}! {6}(他投降了)"
 	}
 	"ChallengeInRace"
 	{
-		"en"        "You are already in a challenge."
-		"pl"        "Nie da rady. Jesteś w trakcie wyzwania."
+		"en"        "你已经在一场挑战中了！."
+		"chi"       "你已经在一场挑战中了！."
 	}
 	"ChallengeNoPlayers"
 	{
-		"en"        "No valid players found."
+		"en"        "没有找到对手."
+		"chi"       "没有找到对手."
 	}
 	"ChallengeOpponentInRace"
 	{
 		"#format"   "{1:s},{2:s},{3:s}"
-		"en"        "{1}{2} {3}is already in a race"
+		"en"        "{1}{2} {3}已经在一场挑战之中了"
+		"chi"       "{1}{2} {3}已经在一场挑战之中了"
 	}
 	"ChallengeStarted1"
 	{
-		"en"        "Go!"
+		"en"        "冲冲冲!"
+		"chi"       "冲冲冲!"
 	}
 	"ChallengeStarted2"
 	{	
 		"#format"	"{1:s}"
-		"en"        "If you want to surrender type {1}!surrender"
+		"en"        "输入 {1}!surrender或!srd 来投降"
+		"chi"       "输入 {1}!surrender或!srd 来投降"
 	}
 	"ChallengeStarted3"
 	{
 		"#format"	"{1:s},{2:s}"
-		"en"        "Both of you can type {1}!abort {2}in chat to cancel the race"
+		"en"        "双方输入 {1}!abort {2}来取消当前比赛"
+		"chi"       "双方输入 {1}!abort {2}来取消当前比赛"
 	}
 	"ChallengeWon"
 	{
-		"en"        "Race won! (your opponent has left the server)"
+		"en"        "你赢得了胜利!(指对手离开了游戏)"
+		"chi"       "你赢得了胜利!(指对手离开了游戏)"
 	}
 	"ChallengeAborted"
 	{
 		"#format"   "{1:s},{2:s},{3:s}"
-		"en"        "Race versus {1}{2} {3}aborted."
+		"en"        "挑战 {1}{2} {3}取消了."
+		"chi"       "挑战 {1}{2} {3}取消了."
 	}
 	"ChallengeFinishAnnounce"
 	{
 		"#format"   "{1:s},{2:s},{3:s},{4:s},{5:s}"
-		"en"        "{1}{2} {3}won a race against {4}{5}"
+		"en"        "芜湖！起飞~ 恭喜{1}{2} {3}干碎了 {4}{5}"
+		"chi"       "芜湖！起飞~ 恭喜{1}{2} {3}干碎了 {4}{5}"
 	}	
 	"ChallengeExpire"
 	{
-		"en"        "Race request expired"
+		"en"        "挑战过期了"
+		"chi"       "挑战过期了"
 	}
 	"ChallengeDisagreeAbort"
 	{
-		"en"		"You have disagreed to abort the challenge"
+		"en"		"哦，你拒绝了挑战"
+		"chi"		"哦，你拒绝了挑战"
 	}
 	"ChallengeAgreeAbort"
 	{
-		"en"		"You have agreed to abort the challenge. Waiting for your opponent."
+		"chi"		"你已经取消了比赛. 正在等待你的对手取消比赛."
 	}
 	"ChallengeAnnounce"
 	{
 		"#format"	"{1:s},{2:s}{3:s},{4:s},{5:s},{6:s},{7:s}"
-		"en"		"Challenge: {1} vs. {2}. Style: {3}{4}{5}. Track: {6}{7}"
+		"en"		"挑战开始: {1} vs. {2}. 模式: {3}{4}{5}. 关卡: {6}{7}"
+		"chi"		"挑战开始: {1} vs. {2}. 模式: {3}{4}{5}. 关卡: {6}{7}"
 	}
 	"ChallengeCountdown"
 	{
 		"#format"	"{1:d}"
 		"en"		"{1}"
+		"chi"		"{1}"
 	}
 	"ChallengeStyleChange"
 	{
 		"#format"   "{1:s},{2:s},{3:s},{4:s},{5:s},{6:s}"
-		"en"        "{1}{2} {3}won a race against {4}{5} {6}(Changed style during race)."
+		"en"        "{1}{2} {3}干碎了 {4}{5} {6}(指尝试在比赛过程中切换了模式而输掉比赛)."
+		"chi"       "{1}{2} {3}干碎了 {4}{5} {6}(指尝试在比赛过程中切换了模式而输掉比赛)."
 	}
 }
